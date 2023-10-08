@@ -1,5 +1,5 @@
 "use client"
-import React, { useRef, useState } from 'react';
+import React, { CSSProperties, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,13 +14,14 @@ import 'swiper/css/navigation';
 import { Parallax, Pagination, Navigation } from 'swiper/modules';
 
 export default function Slide() {
+  
   return (
     <>
       <Swiper
         style={{
           '--swiper-navigation-color': '#fff',
           '--swiper-pagination-color': '#fff',
-        }}
+        } as CSSProperties}
         speed={600}
         parallax={true}
         pagination={{

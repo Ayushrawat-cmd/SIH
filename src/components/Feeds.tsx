@@ -41,7 +41,7 @@ export default function Feeds(){
               <div>
                 <a className="inline-block text-lg font-bold dark:text-white" href="#">Wade Warren</a>
               </div>
-              <div className="text-slate-500 dark:text-slate-300 dark:text-slate-400">
+              <div className="text-slate-500 dark:text-slate-400">
                 July 17, 2018
               </div>
             </div>
